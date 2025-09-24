@@ -1,0 +1,26 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Random.org integer generator for n8n",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "n8n-workflow": "^1.110.0",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/Random.node.js"
+    ]
+  }
+}
