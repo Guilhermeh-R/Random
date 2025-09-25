@@ -9,7 +9,7 @@ export class Random implements INodeType {
 		group: ['transform'],
 		icon: 'file:random.svg',
 		version: 1,
-		description: 'Generate random number using Random.org',
+		description: 'True Random Number Generator',
 		defaults: {
 			name: 'Random',
 		},
